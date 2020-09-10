@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="header-top top__header">
+      <div class="container">
+        <div class="header__mobile-top">
+          <div class="mobile-top__right">
+            <div class="menu-btn">
+              <a href="#"><span></span></a>
+            </div>
+            <a class="header__inner-logo" href="#"><img src="images/logo.png" alt="">
+              <div class="header__inner-text">
+                <span class="header__inner-toptext">Flower shop</span>
+                <span class="header__inner-subtext">Доставка цветов</span>
+              </div>
+            </a>
+          </div>
+          <div class="mobile-top__left">
+            <div class="menu__search">
+              <div class="menu__search-mobile">
+                <img class="search-img" src="images/search-mobile.png" alt="">
+              </div>
+              <form>
+                <input type="text" class="mobile__search" placeholder="Поиск">
+              </form>
+            </div>
+            <div class="menu__tel" data-fancybox data-src="#modal" href="javascript:;">
+              <img src="images/search-phone.png" alt="">
+            </div>
+            <a class="menu__cart" href="#">
+              <span>12</span>
+              <img src="images/cart-mobile.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <nav class="top__header-menu menu">
+          <ul class="menu-list">
+            <li><a class="menu-list__link" href="#">Каталог</a></li>
+            <li><a class="menu-list__link" href="#">Акции</a></li>
+            <li><a class="menu-list__link" href="#">Хиты продаж</a></li>
+          </ul>
+          <ul class="menu-list">
+            <li><a class="menu-list__link" href="#">О нас</a></li>
+            <li><a class="menu-list__link" href="#">Новости</a></li>
+            <li><a class="menu-list__link" href="#">Как заказать</a></li>
+            <li><a class="menu-list__link" href="#">Отзывы</a></li>
+          </ul>
+          <ul class="menu-list">
+            <li><a class="menu-list__link" href="#">Контакты</a></li>
+            <li><a class="menu-list__link menu__email" href="mailto:info@flowershop.ru">info@flowershop.ru
+              </a>
+            <li>
+              <a class="menu-list__link menu__phone" data-fancybox data-src="#modal" href="javascript:;">8 800
+                777-05-05
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="top__header-menu mobile">
+          <ul class="menu-list">
+            <li><a class="menu-list__link" href="#">Каталог</a></li>
+            <li><a class="menu-list__link" href="#">Акции</a></li>
+            <li><a class="menu-list__link" href="#">Хиты продаж</a></li>
+          </ul>
+          <ul class="menu-list">
+            <li><a class="menu-list__link" href="#">О нас</a></li>
+            <li><a class="menu-list__link" href="#">Новости</a></li>
+            <li><a class="menu-list__link" href="#">Как заказать</a></li>
+            <li><a class="menu-list__link" href="#">Отзывы</a></li>
+          </ul>
+          <ul class="menu-list">
+            <li><a class="menu-list__link" href="#">Контакты</a></li>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="header__search">
+      <div class="container">
+        <div class="header__search-inner">
+          <a class="search__inner-logo"><img src="images/logo.png" alt="logo">
+            <div class="search__inner-text">
+              <span class="search__inner-toptext">Flower shop</span>
+              <span class="search__inner-subtext">Доставка цветов</span>
+            </div>
+          </a>
+          <form action="#" class="search__form">
+            <div class="search__form-categories">
+              <div class="categories__text">Все</div>
+              <div class="categories__select">
+                <div class="title">Выберите Цветы</div>
+                <ul>
+                  <li><a href="#">Розы</a></li>
+                  <li><a href="#">Пионы</a></li>
+                  <li><a href="#">Герберы</a></li>
+                  <li><a href="#">Тюльпаны</a></li>
+                  <li><a href="#">Лилии</a></li>
+                  <li><a href="#">Подсолнухи</a></li>
+                  <li><a href="#">Ромашки</a></li>
+                  <li><a href="#">Орхидеи</a></li>
+                  <li><a href="#">Ирисы</a></li>
+                  <li><a href="#">Гипсофила</a></li>
+                  <li><a href="#">Эустомы</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="search__form-input">
+              <input type="text">
+            </div>
+            <div class="search__form-btn">
+              <button type="submit"><img src="images/search.svg" alt=""></button>
+            </div>
+          </form>
+          
+          <a class="search__basket" href="#">
+            <div class="search__basket-left">
+              <span class="search__basket-count">4</span>
+              <div class="search__basket-img"><img src="images/cart.png" alt=""></div>
+            </div>
+            <div class="search__basket-right">
+              <span class="search__basket-sum">Сумма</span>
+              <span class="search__basket-num">15 000 руб.</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="search__menu">
+      <div class="container">
+        <ul class="search__menu-list">
+          <li><a href="#"><img src="images/category1.jpg" alt="">
+              <div class="search__menu-text">Розы</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category2.jpg" alt="">
+              <div class="search__menu-text">Пионы</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category3.jpg" alt="">
+              <div class="search__menu-text">Герберы</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category4.jpg" alt="">
+              <div class="search__menu-text">Тюльпаны</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category5.jpg" alt="">
+              <div class="search__menu-text">Лилии</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category6.jpg" alt="">
+              <div class="search__menu-text">Подсолнухи</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category7.jpg" alt="">
+              <div class="search__menu-text">Ромашки</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category8.jpg" alt="">
+              <div class="search__menu-text">Орхидеи</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category9.jpg" alt="">
+              <div class="search__menu-text">Ирисы</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category10.jpg" alt="">
+              <div class="search__menu-text">Гипсофила</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category11.jpg" alt="">
+              <div class="search__menu-text">Эустомы</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category12.jpg" alt="">
+              <div class="search__menu-text">Фруктовые</div>
+            </a>
+          </li>
+          <li><a href="#"><img src="images/category13.jpg" alt="">
+              <div class="search__menu-text">Корзины</div>
+            </a>
+          </li>
+        </ul>
+        <div class="search__menu-mobile">Выберите цветы</div>
+        <div class="search__menu-dropdown">
+          <div class="menu-dropdown__items">
+            <div class="menu-dropdown__item">
+              <div class="menu-dropdown__item-name">
+                <div class="menu-dropdown__item-list">
+                  <ul>
+                    <li><a href="#">Розы различных оттенков</a></li>
+                    <li><a href="#">Букеты из 101 розы</a></li>
+                    <li><a href="#">Пионовидные розы</a></li>
+                    <li><a href="#">Розы в шляпной коробке</a></li>
+                    <li><a href="#">Длинные розы</a></li>
+                    <li><a href="#">Кустовые розы</a></li>
+                    <li><a href="#">Недорогие букеты из роз</a></li>
+                    <li><a href="#">Сердца из роз</a></li>
+                    <li><a href="#">Розы эквадор</a></li>
+                    <li><a href="#">Кенийские розы</a></li>
+                    <li><a href="#">Мишки из роз</a></li>
+                    <li><a href="#">Все розы</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="menu-dropdown__item-info info">
+              <div class="info__item-content content">
+                <div class="content__name">
+                  <ul>
+                    <li><a href="#">Красные</a></li>
+                    <li><a href="#">Белые</a></li>
+                    <li><a href="#">Розовые</a></li>
+                  </ul>
+                </div>
+                <div class="content__brand">
+                  <ul class="content__brand-name">
+                    <li><a href="#">Желтые</a></li>
+                    <li><a href="#">Кремовые</a></li>
+                    <li><a href="#">Персиковые</a></li>
+                    <li><a href="#">Оранжевые</a></li>
+                    <li><a href="#">Коралловые</a></li>
+                  </ul>
+                </div>
+                <div class="content__countries">
+                  <ul class="countries-name">
+                    <li><a href="#">Кофейные</a></li>
+                    <li><a href="#">Радужные</a></li>
+                    <li><a href="#">Синие</a></li>
+                    <li><a href="#">Сиреневые</a></li>
+                    <li><a href="#">Чёрные</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="info__item-image box">
+                <div class="box__item">
+                  <div class="box__item-title">Специальное предложение</div>
+                  <div class="box__item-img"><img src="images/item11.png" alt=""></div>
+                  <div class="box__item-price">3500 <span>руб.</span> </div>
+                  <a class="box__item-btn" href="#">Купить</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="overlay"></div>
+  </header>
+
+
+
+
+  <section class="main">
+    <div class="container">
+
+      <div class="main__inner">
+
+        <div class="main__menu">
+          <div class="main__menu-title">Выберите повод для подарка:</div>
+          <ul class="main__menu-list">
+            <li><a href="#">Букет на день рождение</a></li>
+            <li><a href="#">Бизнес-букет</a></li>
+            <li><a href="#">Свадебный букет</a></li>
+            <li><a href="#">Букет подруге</a></li>
+            <li><a href="#">Букет ко дню матери</li>
+            <li><a href="#">На выписку из роддома</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">День учителя</a></li>
+            <li><a href="#">Выпускной</a></li>
+            <li><a href="#">Все предложения</a></li>
+          </ul>
+        </div>
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-slide__content">
+                <div class="swiper-slide__content-item content-item">
+                  <div class="content-item__subtitle">Подарите ощущение праздника</div>
+                  <div class="content-item__title">Порадуйте своих любимых прямо сейчас</div>
+                  <div class="content-item__text">Закажите букет и наши курьеры доставят его по Москве в любое время
+                  </div>
+                  <a class="content-item__btn" href="#">Заказать букет</a>
+                </div>
+                <div class="swiper-slide__content-img">
+                  <img src="images/banner.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__content">
+                <div class="swiper-slide__content-item content-item">
+                  <div class="content-item__subtitle">Подарите ощущение праздника</div>
+                  <div class="content-item__title">Порадуйте своих любимых прямо сейчас </div>
+                  <div class="content-item__text">Закажите букет и наши курьеры доставят его по Москве в любое время
+                  </div>
+                  <a class="content-item__btn" href="#">Заказать букет</a>
+                </div>
+                <div class="swiper-slide__content-img">
+                  <img src="images/banner.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__content">
+                <div class="swiper-slide__content-item content-item">
+                  <div class="content-item__subtitle">Подарите ощущение праздника</div>
+                  <div class="content-item__title">Порадуйте своих любимых прямо сейчас </div>
+                  <div class="content-item__text">Закажите букет и наши курьеры доставят его по Москве в любое время
+                  </div>
+                  <a class="content-item__btn" href="#">Заказать букет</a>
+                </div>
+                <div class="swiper-slide__content-img">
+                  <img src="images/banner.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide__content">
+                <div class="swiper-slide__content-item content-item">
+                  <div class="content-item__subtitle">Подарите ощущение праздника</div>
+                  <div class="content-item__title">Порадуйте своих любимых прямо сейчас </div>
+                  <div class="content-item__text">Закажите букет и наши курьеры доставят его по Москве в любое время
+                  </div>
+                  <a class="content-item__btn" href="#">Заказать букет</a>
+                </div>
+                <div class="swiper-slide__content-img">
+                  <img src="images/banner.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-arrows">
+            <div class="swiper-arrows__prev"><img src="images/arrow-prev.png" alt=""></div>
+            <div class="swiper-arrows__next"><img src="images/arrow-next.png" alt=""></div>
+          </div>
+        </div>
+        <div class="main__banner">
+          <div class="main__banner-info">
+            <div class="main__banner-info__img">
+              <img src="images/giftbox.png" alt="">
+            </div>
+            <div class="main__banner-info__text">Самые низкие цены</div>
+            <div class="main__banner-info__title">Распродажа</div>
+            <a class="main__banner-info__catalog" href="#">Каталог распродаж ></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="news">
+    <div class="container-2">
+      <div class="news__title title">Новости</div>
+      <div class="news__inner">
+        <div class="news__inner-left">
+          <a class="news__inner-item item-info" href="#">
+            <div class="news__inner-img">
+              <img src="images/news1.jpg" alt="">
+            </div>
+            <div class="inner-item__info">
+
+              <div class="inner-item__title">Как выбрать букет невесты</div>
+              <p class="inner-item__text">Букет невесты – это обязательный атрибут образа, в котором девушка предстанет
+                перед гостями во время регистрации брака и праздничного ужина. Цветочная композиция должна быть не
+                только красивой, но и сочетаться с фигурой и нарядом невесты...
+              </p>
+              <div class="inner-item__subtitle">
+                <span class="inner-item__subtitle-left">04.02.2020</span>
+                <span class="inner-item__subtitle-right">Читать полностью</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="news__inner-right">
+          <a class="news__inner-item" href="#">
+            <div class="news__inner-img">
+              <img src="images/news2.jpg" alt="">
+            </div>
+            <div class="inner-item__info">
+              <div class="inner-item__title">Цветы на 1 сентября</div>
+              <p class="inner-item__text">Совсем скоро по всей стране запестрят торжественные линейки, посвященные
+                началу нового учебного года! В этом сезоне наши флористы рады предложить Вам целую коллекцию
+                тематических букетов для поздравления в волнительный день 1 сентября!
+              </p>
+              <div class="inner-item__subtitle">
+                <span class="inner-item__subtitle-left">22.08.20</span>
+                <span class="inner-item__subtitle-right">Читать полностью</span>
+              </div>
+            </div>
+          </a>
+          <a class="news__inner-item" href="#">
+            <div class="news__inner-img">
+              <img src="images/news3.jpg" alt="">
+            </div>
+            <div class="inner-item__info">
+
+              <div class="inner-item__title">Модная тенденция весны: пионы в шляпных коробках</div>
+              <p class="inner-item__text">Привычные на первый взгляд, садовые пионы в последние годы пользуются
+                ошеломляющей популярностью! Эти удивительные цветы стали желанным подарком для многих женщин, особенно
+                преподнесенные без всякого повода! В самом начале лета наступает их сезон, поэтому в июне можно купить
+                пионы в Москве недорого...
+              </p>
+              <div class="inner-item__subtitle">
+                <span class="inner-item__subtitle-left">29.05.2020</span>
+                <span class="inner-item__subtitle-right">Читать полностью</span>
+              </div>
+            </div>
+          </a>
+          <a class="news__inner-item" href="#">
+            <div class="news__inner-img">
+              <img src="images/news4.jpg" alt="">
+            </div>
+            <div class="inner-item__info">
+
+              <div class="inner-item__title">Яркие розы Эквадора: букеты с особенным настроением! </div>
+              <p class="inner-item__text">Сразу несколько новых сортов роз пополнили нашу коллекцию в этом сезоне. Лишь
+                появившись на страницах каталога, новые букеты сразу завоевали любовь покупателей, настолько эффектными
+                и колоритными предстают они перед нами. Встречайте наших красавиц с южноамериканских плантаций!
+
+              </p>
+              <div class="inner-item__subtitle">
+                <span class="inner-item__subtitle-left">15.06.2020</span>
+                <span class="inner-item__subtitle-right">Читать полностью</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="news__btn">
+        <a href="#">Все новости</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="recommended">
+    <div class="container-2">
+      <div class="recommended__top">
+        <div class="recommended__top-title title">
+          Рекомендуем
+        </div>
+        <div class="recommended__top-text">
+          Мы влюблены в свою работу и цветы. На протяжении 7 лет мы создаем красоту из живых цветов, составляем композиции из сухоцветов, экспериментируем с формами, цветами и сочетаниями. К созданию букетов подходим с душой и любовью.
+        </div>
+      </div>
+      <div class="recommended__inner">
+
+        <a class="recommended__item left" href="#">
+          <div class="recommended__item-content left">
+            <div class="recommended__item-content info">
+              <div class="recommended__item-content__category">Новый тренд - сухоцветы</div>
+              <div class="recommended__item-content__text">Оригинальные букеты и изящные композиции для дома и офиса.
+                Они будут радовать Вас очень долго!</div>
+              <div class="recommended__item-content__btn" href="#">Смотреть работы с сухоцветами</div>
+              <div class="recommended__item-content__btn mobile" href="#">Смотреть работы</div>
+            </div>
+            <div class="recommended__item-img">
+              <img src="images/recommend1.jpg" alt="">
+            </div>
+          </div>
+        </a>
+
+
+        <a class="recommended__item right" href="#">
+          <div class="recommended__item-content black">
+            <div class="recommended__item-img">
+              <img src="images/recommend2.jpg" alt="">
+            </div>
+            <div class="recommended__item-content top">
+              <div class="recommended__item-content__category">WOW-эффект или пиономания 2020</div>
+              <div class="recommended__item-content__text black">Мы утверждаем: девушки без ума от пионов!
+                Поэтому мы собрали самую большую коллекцию: роскошные, нежные, пионы с "изюминкой".
+              </div>
+              <div class="recommended__item-content__btn" href="#">Смотреть букеты с пионами</div>
+              <div class="recommended__item-content__btn mobile" href="#">Смотреть букеты</div>
+            </div>
+          </div>
+
+          <div class="recommended__item">
+            <div class="recommended__item-content white">
+              <div class="recommended__item-img">
+                <img src="images/recommend3.jpg" alt="">
+              </div>
+              <div class="recommended__item-content bottom">
+                <div class="recommended__item-content__category">Ромашковое настроение</div>
+                <div class="recommended__item-content__text">Если Вы цените простоту и искренность, - Вам обязательно
+                  понравится один из наших букетов.
+
+                  Подарите теплые воспоминания о лете, когда за окном холод и непогода!
+                </div>
+                <div class="recommended__item-content__btn white" href="#">Смотреть полевые цветы</div>
+                <div class="recommended__item-content__btn white mobile" href="#">Смотреть цветы</div>
+
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="offer">
+    <div class="container-2">
+      <div class="offer__inner">
+        <div class="offer__inner-left">
+          <div class="offer__inner-title title-top">Доставка цветов в Москве</div>
+          <p class="offer__inner-text"> Уже 7 лет мы доставляем отборные букеты и цветочные композиции. Живые цветы –
+            это олицетворение лета, красоты, отличного настроения и истинного проявления симпатии. Праздник всегда
+            сопровождается яркими и ароматными букетами. Неважно – юбилей, день рождения или просто желание порадовать
+            близких, доставить радость коллегам – розы, тюльпаны, хризантемы создадут калейдоскоп красок и позитива.
+            Купить цветы и оформить онлайн-заказ Вы можете с доставкой на дом, по месту работы. Наш интернет-магазин
+            работает круглосуточно и гарантирует своевременную доставку цветов в любую точку Москвы и
+            Подмосковья.  </p>
+
+            <p> У нас представлен богатый выбор свежих цветов. Все представленные букеты авторские и собираются согласно
+              новейшим направлениям флористики. У нас можно заказать букеты любых форм и размеров: квадратные, круглые,
+              овальные, маленькие, большие. Наши флористы уделяют внимание дизайну и упаковке букета, начиная от
+              крафт-бумаги и заканчивая корейской техникой с использованием цветной пленки. Цветы в корзинах, шляпных
+              коробках, декоративных ящиках, в форме сердец – шедевры, которыми Вы порадуете близких.</p>
+
+          <div class="offer__inner-title title-bottom">Что мы предлагаем</div>
+          <p class="offer__inner-text text-bottom"> Наши флористы создадут для Вас композиции в виде сердца, котика, любой другой формы. Композицию можно
+            дополнить декором, например, в виде шоколадных букв, которые преобразят его в сердечное послание. Также
+            можно украсить букет мягкими игрушками, гелиевыми шариками, оригинальными шоколадками и открытками ручной
+            работы, и другим декором. Вы можете выбрать букет и декор к нему в зависимости от бюджета,
+            торжества и повода. Мы предлагаем клиентам следующие виды доставки заказа:
+
+            <ul class="offer__inner-list">
+              <li><a href="#"> - Срочная доставка цветов по Москве курьером;</a></li>
+              <li><a href="#"> - Доставка букетов на дом или офис;</a></li>
+              <li><a href="#"> - По номеру телефона;</a></li>
+              <li><a href="#"> - Анонимная;</a></li>
+            </ul> 
+           </p>
+        </div>
+        <div class="offer__inner-right">
+          <div class="offer__inner-item">
+            <a class="offer__inner-logo" href="#"><img src="images/logo.png" alt=""></a>
+            <div class="offer__inner-text">
+              <span class="offer__inner-toptext">Flower shop</span>
+              <span class="offer__inner-subtext">Доставка цветов</span>
+            </div>
+            <div class="offer__inner-company">
+              <div class="title">Группа компаний</div>
+              <div class="text">Показатели:</div>
+            </div>
+            <div class="offer__inner-info">
+              <div>На рынке: 7 лет</div>
+              <div>Ежедневные поставки свежих цветов</div>
+              <div>Работаем без выходных</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offer__btn"></div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container-2">
+      <div class="contacts__inner">
+        <div class="contacts__inner-items">
+          <div class="contacts__inner-title">
+            Информация</div>
+          <ul class="contacts__inner-list">
+            <li><a class="contacts__inner-link" href="#">О нас</a></li>
+            <li><a class="contacts__inner-link" href="#">Вакансии</a></li>
+            <li><a class="contacts__inner-link" href="#">Оплата</a></li>
+            <li><a class="contacts__inner-link" href="#">Отзывы</a></li>
+            <li><a class="contacts__inner-link" href="#">Новости</a></li>
+            <li><a class="contacts__inner-link" href="#">Контакты</a></li>
+          </ul>
+
+        </div>
+        <div class="contacts__inner-items">
+          <div class="contacts__inner-title">Продукция</div>
+          <ul class="contacts__inner-list">
+            <li><a class="contacts__inner-link" href="#">Сезонные цветы </a></li>
+            <li><a class="contacts__inner-link" href="#">Букеты</a></li>
+            <li><a class="contacts__inner-link" href="#">Упаковка для букета </a></li>
+            <li><a class="contacts__inner-link" href="#">Подарки </a></li>
+            <li><a class="contacts__inner-link" href="#">Цветы </a></li>
+            <li><a class="contacts__inner-link" href="#">Монобукеты </a></li>
+            <li><a class="contacts__inner-link" href="#">Премиум букеты </a></li>
+            <li><a class="contacts__inner-link" href="#">Цветочные корзины </a></li>
+            <li><a class="contacts__inner-link" href="#">Специальные предложения</a></li>
+          </ul>
+        </div>
+        <div class="contacts__inner-items">
+          <div class="contacts__inner-title">Популярные</div>
+          <ul class="contacts__inner-list">
+            <li><a class="contacts__inner-link" href="#">Букет 101 роза</a></li>
+            <li><a class="contacts__inner-link" href="#">Букет 51 роза</a></li>
+            <li><a class="contacts__inner-link" href="#">Кустовые розы</a></li>
+            <li><a class="contacts__inner-link" href="#">Свадебные букеты</a></li>
+            <li><a class="contacts__inner-link" href="#">Букеты на 14 февраля</a></li>
+            <li><a class="contacts__inner-link" href="#">Тюльпаны в коробке</a></li>
+            <li><a class="contacts__inner-link" href="#">Букет гортензий</a></li>
+            <li><a class="contacts__inner-link" href="#">Все предложения</a></li>
+          </ul>
+        </div>
+        <div class="contacts__inner-items">
+          <div class="contacts__inner-title">Контакты</div>
+          <div class="contacts__inner-item">
+            <a class="contacts__inner-phone" href="tel:84951503171">8 495 100-00-00</a>
+            <a class="contacts__inner-phone" href="tel:88005004344">8 800 500 00 00</a>
+            <p>звонок бесплатный</p>
+            <a class="contacts__inner-mail" href="mailto:com@flowershop.ru">flowershop.ru</a>
+            <div class="contacts__inner-adress">
+              <p>111524, Москва</p>
+              <p>Рязанский проспект 24к2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-2">
+      <div class="footer__inner">
+        <div class="footer__inner-item">
+          <a class="footer__inner-logo" href="#"><img src="images/logo.png" alt=""></a>
+          <div class="footer__inner-text">
+            <span class="footer__inner-toptext">Flower shop</span>
+            <span class="footer__inner-subtext">Доставка цветов</span>
+          </div>
+        </div>
+        <div class="footer__inner-copy">
+          Сайт разработан NTI-systems
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="fancybox-content" style="display: none;" id="modal">
+    <div class="fancybox-content__title">Заказать звонок</div>
+    <form class="fancybox-content__form" action="">
+      <input type="text" placeholder="Имя" required>
+      <input type="text" placeholder="Телефон" required>
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
